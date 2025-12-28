@@ -30,3 +30,5 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+src/store_data.csv
+src/data/retail_sales.db
