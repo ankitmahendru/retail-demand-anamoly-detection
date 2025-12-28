@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  retail-ml-api:
+    build: .
+    container_name: retail-ml-system
+    ports:
+      - "5000:5000"
+    volumes:
+      # Map local directories to container directories for persistence
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+      - LOG_LEVEL=INFO
+    restart: unless-stopped

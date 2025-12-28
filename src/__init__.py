@@ -1,0 +1,1 @@
+# This file makes 'src' a package, allowing imports like 'from src.database import ...'
