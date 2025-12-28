@@ -42,7 +42,7 @@ retail-demand-anamoly-detection/
 ├── tests/
 │   └── test_system.py        # Integration tests for the API
 ├── Dockerfile                # Multi-stage-ish slim Python build
-├── docker-compose-yml        # Service orchestration
+├── docker-compose.yml        # Service orchestration
 ├── Makefile                  # Shortcuts for the lazy (install, test, run)
 └── requirements.txt          # The usual suspects (Scikit-Learn, Pandas, Flask)
 
@@ -100,8 +100,6 @@ make docker-run # Builds and starts the system via docker-compose
 | `/waste-risk` | `POST` | Calculates 0-100 risk levels and gives markdown advice. |
 | `/generate-data` | `POST` | Injects synthetic data and triggers model retraining. |
 
----
-
 ## 🤝 Contribution Guide
 
 Think my math is off? Or maybe the Isolation Forest is too "contaminated"?
@@ -111,14 +109,6 @@ Think my math is off? Or maybe the Isolation Forest is too "contaminated"?
 3. **Commit it** (Keep it clean, or I'll reject it).
 4. **Push it.**
 5. **PR it.**
-
-*Note: Please ensure your code follows PEP 8, or I will be forced to send a very sarcastic automated response.*
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. Use it for good, or at least use it to make sure you don't run out of milk.
 
 ---
 
