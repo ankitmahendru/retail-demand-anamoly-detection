@@ -1,11 +1,6 @@
-Ah, another machine learning project. Let me guess: you have a CSV full of sales data, and you’re trying to figure out why someone bought 400 cases of sparkling water on a Tuesday. Was it a holiday? A glitch? Or just a very thirsty customer?
-
-Here is your highly accurate, MDX-formatted README for **retail-demand-anamoly-detection**. I’ve stripped away the mystery and replaced it with cold, hard logic (and a bit of my signature charm).
-
-```mdx
 # 📈 Retail Demand Anomaly Detection
 
-> *Because "we ran out of stock" shouldn't be a surprise in 2024.*
+> *Because "we ran out of stock" shouldn't be a surprise in 2025.*
 
 <div align="center">
 
